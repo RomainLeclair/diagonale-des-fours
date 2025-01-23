@@ -32,7 +32,7 @@
                     <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                     </svg>
-                    <span>50m D+</span>
+                    <span>70m D+</span>
                   </div>
                   <div class="flex items-center">
                     <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@
               <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-600/20 rounded-3xl transform rotate-2 transition-transform group-hover:rotate-3"></div>
               <div class="relative bg-white p-8 rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105">
                 <div class="flex items-end mb-6">
-                  <span class="text-5xl font-bold text-gray-900">13</span>
+                  <span class="text-5xl font-bold text-gray-900">13,5</span>
                   <span class="text-2xl font-medium text-gray-600 ml-2 mb-1">km</span>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Trail Intermédiaire</h3>
@@ -68,13 +68,13 @@
                     <svg class="w-5 h-5 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                     </svg>
-                    <span>100m D+</span>
+                    <span>120m D+</span>
                   </div>
                   <div class="flex items-center">
                     <svg class="w-5 h-5 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
-                    <span>1h30 estimé</span>
+                    <span>1h45 estimé</span>
                   </div>
                   <p class="text-sm leading-relaxed">
                     Un parcours équilibré offrant un beau challenge technique.
@@ -104,7 +104,7 @@
                     <svg class="w-5 h-5 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                     </svg>
-                    <span>200m D+</span>
+                    <span>300m D+</span>
                   </div>
                   <div class="flex items-center">
                     <svg class="w-5 h-5 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

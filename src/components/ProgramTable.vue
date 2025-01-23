@@ -38,41 +38,35 @@
             description: "Restauration et buvette (CB acceptée)"
           },
           {
-            time: "14:00",
+            time: "14:15",
             event: "Départ Trail 24 km",
             description: "Point de départ : Stade de Guenrouët"
           },
           {
             time: "14:30",
-            event: "Départ Trail 13 km",
+            event: "Départ Marche envrion 10 km",
             description: "Point de départ : Stade de Guenrouët"
           },
           {
             time: "15:00",
+            event: "Départ Trail 13 km",
+            description: "Point de départ : Stade de Guenrouët"
+          },
+          {
+            time: "15:30",
             event: "Départ Trail 6 km",
             description: "Point de départ : Stade de Guenrouët"
           },
           
           {
-            time: "16:00",
+            time: "17:15",
             event: "Départ Course 600m",
             description: "Course enfants (6-8 ans)"
           },
           {
-            time: "16:30",
+            time: "17:30",
             event: "Départ Course 1000m",
             description: "Course enfants (9-11 ans)"
-          },
-          
-          {
-            time: "17:00",
-            event: "Remise des prix",
-            description: "Podiums toutes catégories"
-          },
-          {
-            time: "18:00",
-            event: "Concert de clôture",
-            description: "Animation musicale gratuite"
           }
         ]
       }

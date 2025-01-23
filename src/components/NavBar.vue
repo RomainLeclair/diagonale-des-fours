@@ -17,9 +17,11 @@
   
         <!-- Signup Button -->
         <div>
-          <router-link to="/signup" class="bg-blue-600 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 ease-in-out">
-            S'inscrire
-          </router-link>
+          <a 
+            href="https://www.klikego.com/inscription/diagonale-des-fours-2025/running-course-a-pied/1704922291482-2" 
+            target="_blank"
+            class="bg-blue-600 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 ease-in-out"
+            >S'inscrire</a>
         </div>
       </div>
     </nav>
