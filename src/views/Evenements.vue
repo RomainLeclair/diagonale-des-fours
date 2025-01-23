@@ -9,7 +9,7 @@
             Nos Parcours
           </h1>
           <p class="text-xl md:text-2xl font-light max-w-2xl mx-auto text-white/90">
-            Choisissez votre défi parmi nos trois trails exceptionnels
+            Choisissez votre défi parmi nos trois distances
           </p>
         </div>
       </section>
@@ -44,12 +44,13 @@
                     Parfait pour une première expérience en trail. Un parcours accessible qui vous fera découvrir les plus beaux sentiers de Guenrouët.
                   </p>
                 </div>
-                <router-link 
-                  to="/inscription/6km" 
+                <a 
+                  href="https://www.klikego.com/inscription/diagonale-des-fours-2025/running-course-a-pied/1704922291482-2" 
+                  target="_blank"
                   class="inline-block w-full text-center bg-gradient-to-r from-green-600 to-emerald-600 text-white font-medium px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300"
-                >
-                  S'inscrire
-                </router-link>
+                  >
+                    S'inscrire
+                  </a>
               </div>
             </div>
   
@@ -79,12 +80,13 @@
                     Un parcours équilibré offrant un beau challenge technique.
                   </p>
                 </div>
-                <router-link 
-                  to="/inscription/13km" 
+                <a 
+                  href="https://www.klikego.com/inscription/diagonale-des-fours-2025/running-course-a-pied/1704922291482-2" 
+                  target="_blank"
                   class="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300"
-                >
-                  S'inscrire
-                </router-link>
+                  >
+                    S'inscrire
+                  </a>
               </div>
             </div>
   
@@ -114,12 +116,13 @@
                     Le parcours les traileurs expérimentés.
                   </p>
                 </div>
-                <router-link 
-                  to="/inscription/24km" 
+                <a 
+                  href="https://www.klikego.com/inscription/diagonale-des-fours-2025/running-course-a-pied/1704922291482-2" 
+                  target="_blank"
                   class="inline-block w-full text-center bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300"
-                >
-                  S'inscrire
-                </router-link>
+                  >
+                    S'inscrire
+                  </a>
               </div>
             </div>
           </div>

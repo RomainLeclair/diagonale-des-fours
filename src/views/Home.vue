@@ -13,15 +13,16 @@
           La Diagonale des Fours<br/>
         </h1>
         <p class="mt-8 text-xl md:text-2xl max-w-2xl mx-auto font-light leading-relaxed text-white/90">
-          Une aventure unique à travers les paysages les plus spectaculaires de nos montagnes.
+          Une aventure unique à travers les paysages les plus spectaculaires de nos campagnes.
         </p>
         <div class="mt-12 space-x-6">
-          <router-link 
-            to="/signup" 
+          <a 
+            href="https://www.klikego.com/inscription/diagonale-des-fours-2025/running-course-a-pied/1704922291482-2" 
+            target="_blank"
             class="inline-block bg-white text-black font-medium px-8 py-4 rounded-full hover:bg-white/90 transition-all duration-300 ease-out transform hover:scale-105 hover:shadow-2xl"
           >
             S'inscrire
-          </router-link>
+          </a>
           <router-link 
             to="/events" 
             class="inline-block bg-transparent border border-white/30 backdrop-blur-sm text-white font-medium px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300 ease-out transform hover:scale-105"
@@ -64,11 +65,11 @@
             </p>
             <div class="grid grid-cols-2 gap-8 pt-8">
               <div>
-                <div class="text-3xl font-bold text-gray-900">42km</div>
+                <div class="text-3xl font-bold text-gray-900">24km</div>
                 <div class="text-gray-500">Distance</div>
               </div>
               <div>
-                <div class="text-3xl font-bold text-gray-900">2500m</div>
+                <div class="text-3xl font-bold text-gray-900">500m</div>
                 <div class="text-gray-500">Dénivelé</div>
               </div>
             </div>
