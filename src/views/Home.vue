@@ -48,7 +48,7 @@
           <div class="relative group">
             <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-3xl transform rotate-3 transition-transform group-hover:rotate-6"></div>
             <img 
-              :src="require('@/assets/home_image.png')" 
+              :src="require('@/assets/Affiche_Diagonale_2025.jpg')" 
               alt="Trail running" 
               class="relative rounded-3xl shadow-2xl transform transition-all duration-500 group-hover:scale-105 object-cover w-full h-[600px]"
             >

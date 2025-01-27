@@ -98,65 +98,9 @@
             </div>
           </div>
   
-          <!-- Services disponibles avec effet de verre -->
-          <div class="mt-20 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-xl"></div>
-            <div class="relative bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20">
-              <h2 class="text-3xl font-bold text-white mb-8">Services sur place</h2>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <ServiceCard 
-                  icon="parking"
-                  title="Parking gratuit"
-                  color="blue"
-                />
-                <ServiceCard 
-                  icon="shower"
-                  title="Vestiaires"
-                  color="purple"
-                />
-                <ServiceCard 
-                  icon="medical"
-                  title="Assistance médicale"
-                  color="pink"
-                />
-              </div>
-            </div>
-          </div>
+
   
-          <!-- Points de ravitaillement avec effet de carte -->
-          <div class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-blue-600/90 to-blue-800/90 rounded-3xl p-8 transform hover:scale-105 transition-all duration-300 backdrop-blur-lg border border-white/10">
-              <h3 class="text-2xl font-bold text-white mb-4">Ravitaillements</h3>
-              <ul class="space-y-4 text-white/90">
-                <li class="flex items-center space-x-3">
-                  <span class="w-3 h-3 bg-blue-400 rounded-full"></span>
-                  <span>Km 5 - Eau + sucré</span>
-                </li>
-                <li class="flex items-center space-x-3">
-                  <span class="w-3 h-3 bg-blue-400 rounded-full"></span>
-                  <span>Km 10 - Complet</span>
-                </li>
-                <li class="flex items-center space-x-3">
-                  <span class="w-3 h-3 bg-blue-400 rounded-full"></span>
-                  <span>Km 15 - Eau + sucré</span>
-                </li>
-              </ul>
-            </div>
-  
-            <div class="bg-gradient-to-br from-purple-600/90 to-purple-800/90 rounded-3xl p-8 transform hover:scale-105 transition-all duration-300 backdrop-blur-lg border border-white/10">
-              <h3 class="text-2xl font-bold text-white mb-4">Barrières horaires</h3>
-              <ul class="space-y-4 text-white/90">
-                <li class="flex items-center space-x-3">
-                  <span class="w-3 h-3 bg-purple-400 rounded-full"></span>
-                  <span>Km 10 - 2h30 après le départ</span>
-                </li>
-                <li class="flex items-center space-x-3">
-                  <span class="w-3 h-3 bg-purple-400 rounded-full"></span>
-                  <span>Km 20 - 4h30 après le départ</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+
   
           <!-- Message important avec effet de verre -->
           <div class="mt-12 relative overflow-hidden">
@@ -215,35 +159,11 @@
     `
   };
   
-  const ServiceCard = {
-    props: {
-      icon: String,
-      title: String,
-      color: String
-    },
-    template: `
-      <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 transform hover:scale-105 transition-all duration-300">
-        <div class="flex items-center space-x-3">
-          <div class="p-2 rounded-lg" :class="[
-            color === 'purple' ? 'bg-purple-500/20' : 
-            color === 'pink' ? 'bg-pink-500/20' : 
-            'bg-blue-500/20'
-          ]">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-            </svg>
-          </div>
-          <span class="text-lg font-medium text-white">{{ title }}</span>
-        </div>
-      </div>
-    `
-  };
   import ProgramTable from '@/components/ProgramTable.vue'
   export default {
     name: 'ProgrammePage',
     components: {
       TimelineItem,
-      ServiceCard,
       ProgramTable
     }
   }
